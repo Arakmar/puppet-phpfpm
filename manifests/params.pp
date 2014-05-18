@@ -60,6 +60,7 @@ class phpfpm::params {
             $pool_chdir                   = '/'
             $pool_catch_workers_output    = undef
             $pool_sec_limit_extensions    = undef
+            $pool_tmp_dir                 = '/tmp'
             $pool_env                     = {}
             $pool_php_value               = {}
             $pool_php_flag                = {}
@@ -120,6 +121,7 @@ class phpfpm::params {
             $pool_chdir                   = '/'
             $pool_catch_workers_output    = undef
             $pool_sec_limit_extensions    = undef
+            $pool_tmp_dir                 = '/tmp'
             $pool_env                     = {}
             $pool_php_value               = {}
             $pool_php_flag                = {}

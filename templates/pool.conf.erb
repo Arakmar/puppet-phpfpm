@@ -434,9 +434,9 @@ security.limit_extensions = <%= @security_limit_extensions %>
 ; Default Value: clean env
 ;env[HOSTNAME] = $HOSTNAME
 ;env[PATH] = /usr/local/bin:/usr/bin:/bin
-;env[TMP] = /tmp
-;env[TMPDIR] = /tmp
-;env[TEMP] = /tmp
+;env[TMP] = <%= tmp_dir %>
+;env[TMPDIR] = <%= tmp_dir %>
+;env[TEMP] = <%= tmp_dir %>
 <% @env.sort.each do |k,v| -%>
 env[<%= k %>] = <%= v %>
 <% end -%>

@@ -54,6 +54,7 @@ define phpfpm::pool (
     $php_admin_flag            = $phpfpm::params::pool_php_admin_flag,
     $service_name              = $phpfpm::params::service_name,
     $pool_dir                  = $phpfpm::params::pool_dir,
+    $tmp_dir                   = $phpfpm::params::pool_tmp_dir,
 )
 {
     $pool_file_path = "${pool_dir}/${name}.conf"
