@@ -25,6 +25,7 @@ class phpfpm::params {
             $emergency_restart_interval  = 0
             $process_control_timeout     = 0
             $process_max                 = 0
+            $process_priority            = undef
             $daemonize                   = 'yes'
             $rlimit_files                = undef
             $rlimit_core                 = undef
@@ -86,6 +87,7 @@ class phpfpm::params {
             $emergency_restart_interval  = 0
             $process_control_timeout     = 0
             $process_max                 = 0
+            $process_priority            = undef
             $daemonize                   = 'yes'
             $rlimit_files                = undef
             $rlimit_core                 = undef

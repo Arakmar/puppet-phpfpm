@@ -33,6 +33,7 @@ class phpfpm (
     $emergency_restart_interval  = $phpfpm::params::emergency_restart_interval,
     $process_control_timeout     = $phpfpm::params::process_control_timeout,
     $process_max                 = $phpfpm::params::process_max,
+    $process_priority            = $phpfpm::params::process_priority,
     $daemonize                   = $phpfpm::params::daemonize,
     $rlimit_files                = $phpfpm::params::rlimit_files,
     $rlimit_core                 = $phpfpm::params::rlimit_core,
